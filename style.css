@@ -1,12 +1,187 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 /* font-family: "Roboto Slab", serif; */
+/* font-family: "Roboto", sans-serif; */
 
 *{
     padding: 0;
     margin: 0;
 }
-.common{
-    width: 1272px;
+
+.section-top{
+    width: 90%;
     margin: 0 auto;
+    padding: 0 38px 0 38px;
+    box-sizing: border-box;
+}
+.section-top-menu{
+    height: 126px;
+    display: flex;
+    align-items: end;
+}
+.section-top-logo{
+    width: 112px;
+    height: 66px;
+    margin-top: 21px;
+}
+.section-top-menu img{
+    width: 22px;
+    height: 21px;
+    display: inline-block;
+}
+.section-top-menu p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    font-family: "Roboto", sans-serif;
+    display: inline-block;
+    margin-left: 8px;
+    margin-right: 25px;
+}
+.section-top-title{
+    margin-top: 29px;
+    font-size: 80px;
+    font-weight: 700;
+    font-family: "Roboto Slab", serif;
+    width: 100%;
+    line-height: 81px;
+    height: 190px;
+}
+.section-top-text{
+    width: 80%;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    height: 62px;
+}
+.section-top-film{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+}
+.section-top-film-left{
+    width: 57%;
+}
+.section-top-film-right{
+    width: 30%;
+}
+.section-top-film-right img{
+   width: 100%;
+   height: 356px;
+}
+.blue-box{
+    background-color: #1E4681;
+    width: 480px;
+    color: white;
+    height: 200px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 60px auto;
+    /* margin:0 auto; */
+}
+.blue-box .content{
+    font-size: 25px;
+    font-weight: 400;
+    width: 430px;
+    font-family: "Roboto Slab", serif;
+}
+.blue-box .author{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: right;
+}
+.section-top-course{
+    margin-top: 80px;
+    padding-top: 80px;
+}
+.section-top-course-common{
+    display: flex;
+    width: 95%;
+    height: 480px;
+    justify-content: space-between;
+}
+.section-top-course-left{
+    width: 59%;
+}
+.section-top-course .title{
+    font-size: 55px;
+    font-weight: 700;
+    font-family: "Roboto Slab", serif;
+    margin-bottom: 30px;
+}
+.section-top-course-left .text{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    line-height: 40px;
+}
+.section-top-course-right img{
+    width: 366px;
+    height: 315px;
+    margin-top: 36px;
+   
+}
+.section-top-course-details{
+    height: 340px;
+    width: 90%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    align-items: center ;
+}
+.section-top-course-details img{
+    width: 232px;
+    margin-right: 40px;
+}
+.section-top-course-details div{
+    width: 160px;
+}
+.section-top-course-details div .title{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    line-height: 32px;
+    padding: 5px;
+}
+.section-top-course-details div .content{
+    padding: 0 5px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    line-height: 23.4px;
+    margin-top: 10px;
+}
+.class-details h1{
+    padding: 40px 0 0 0;
+    height: 150px;
+    font-size: 55px;
+    font-weight: 700;
+    height: 200px;
+    box-sizing: border-box;
+    font-family: "Roboto Slab", serif; 
+}
+.class-format{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 220px;
+}
+.class-format div{
+    width: 260px;
+}
+.class-format .title{
+    padding: 7px 0;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    color: #1E4681;
+}
+.class-format .content{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
 }
