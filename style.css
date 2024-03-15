@@ -146,23 +146,23 @@
         /* height: 160px; */
     }
     img {
-        width: 100%;
+        width: calc((100vw - 140.74px) / 3);
         height: 100%;
     }
     .child-header {
         font-family: "Roboto", sans-serif;
         font-size: 17px;
         font-weight: 700;
-        width: calc(100% - 34px);
-        height: 39px;
-        margin: 7px 14px 0px 20px;
+        width: calc(100% - 19.69px);
+        height: 22.59px;
+        margin: 2.36px 8.11px 0px 11.58px;
     }
     .child-article {
         font-family: "Roboto", sans-serif;
         font-size: 14px;
         font-weight: 400;
-        width: calc(100% - 34px);
-        height: 63px;
+        width: calc(100% - 19.69px);
+        height: 36.49px;
         margin: 32px 14px 0px 20px;
     }
     .dif-height {
