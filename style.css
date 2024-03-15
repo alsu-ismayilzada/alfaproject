@@ -6,7 +6,171 @@
     padding: 0;
     margin: 0;
 }
-.common{
-    width: 1272px;
-    margin: 0 auto;
+@media screen and (min-width: 1280px) and (max-width: 1440px) 
+{
+        
+    .section-ahmad{
+        width: calc(100vw - 169px);
+        /* height: 100vh; */
+        margin: 0 auto;
+    }
+    .article {
+        margin-left: 37px;
+    }
+    .what-we-know {
+        font-family: "Roboto Slab", serif;
+        font-size: 55px;
+        font-weight: 700;
+    }
+    ul {
+        width: calc(100% - 572px);
+        height: 374px;
+        margin-left: 20px;
+        margin-top: 55px;
+        margin-bottom: 248px;
+    }
+    li {
+        font-family: "Roboto", sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 36px; 
+    }
+    .course-program {
+        font-family: "Roboto Slab", serif;
+        font-size: 55px;
+        font-weight: 700;
+        margin-bottom: 95px;
+    }
+    .parent {
+        width: 100%;
+        height: 1107px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .child {
+        margin: 0px 0px 41px;
+        width: calc((100vw - 243px) / 3);
+        height: calc((100% - 123px) / 3);
+        background-color: white;
+        box-shadow: 1px 1px 15px 0px rgba(0,0,0,0.25);
+        border-radius: 30px;
+    }
+    .margin {
+        margin: 0px 37px 41px;
+    }
+    .child-img{
+        width: 100%;
+        /* height: 160px; */
+    }
+    img {
+        width: 100%;
+        height: 100%;
+    }
+    .child-header {
+        font-family: "Roboto", sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+        width: calc(100% - 34px);
+        height: 39px;
+        margin: 7px 14px 0px 20px;
+    }
+    .child-article {
+        font-family: "Roboto", sans-serif;
+        font-size: 25px;
+        font-weight: 400;
+        width: calc(100% - 34px);
+        height: 63px;
+        margin: 32px 14px 0px 20px;
+    }
+    .dif-height {
+        height: 71px;
+        margin: 12px 14px 3px 20px;
+    }
+    .dif-mar {
+        margin: 0px 14px 0px 20px;
+    }
+}
+@media screen and (min-width: 834px) and (max-width: 1280px) 
+{
+    .section-ahmad{
+        width: calc(100vw - 97.88px);
+        /* height: 100vh; */
+        margin: 0 auto;
+    }
+    .article {
+        margin-left: 21px;
+    }
+    .what-we-know {
+        font-family: "Roboto Slab", serif;
+        font-size: 32px;
+        font-weight: 700;
+    }
+    ul {
+        width: calc(100% - 331.99px);
+        height: 216.61px;
+        margin-left: 9px;
+        margin-top: 12px;
+        margin-bottom: 143px;
+    }
+    li {
+        font-family: "Roboto", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px; 
+    }
+    .course-program {
+        font-family: "Roboto Slab", serif;
+        font-size: 32px;
+        font-weight: 700;
+        margin-bottom: 55px;
+    }
+    .parent {
+        width: 100%;
+        height: 522px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .child {
+        margin: 0px 0px 23.74px;
+        width: calc((100vw - 140.74px) / 3);
+        height: calc((100% - 71.22px) / 3);
+        background-color: white;
+        box-shadow: 1px 1px 15px 0px rgba(0,0,0,0.25);
+        border-radius: 30px;
+    }
+    .margin {
+        margin: 0px 21.43px 23.74px;
+    }
+    .child-img{
+        width: 100%;
+        /* height: 160px; */
+    }
+    img {
+        width: 100%;
+        height: 100%;
+    }
+    .child-header {
+        font-family: "Roboto", sans-serif;
+        font-size: 17px;
+        font-weight: 700;
+        width: calc(100% - 34px);
+        height: 39px;
+        margin: 7px 14px 0px 20px;
+    }
+    .child-article {
+        font-family: "Roboto", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        width: calc(100% - 34px);
+        height: 63px;
+        margin: 32px 14px 0px 20px;
+    }
+    .dif-height {
+        height: 71px;
+        margin: 12px 14px 3px 20px;
+    }
+    .dif-mar {
+        margin: 0px 14px 0px 20px;
+    }
+        
 }
