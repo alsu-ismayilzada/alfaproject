@@ -1,0 +1,128 @@
+@media screen and (min-width: 991px) and (max-width: 1279px){
+    .section-top{
+        padding: 0 40px;
+    }
+    .section-top-logo{
+        width: 65px;
+        height: 39px;
+    }
+    .section-top-menu{
+        height: 76px;
+    }
+    .section-top-menu img{
+        width: 12.74px;
+        height: 12.16px;
+    }
+    .section-top-menu p{
+        font-size: 14px;
+        line-height: 13.8px;
+        margin-left: 5px;
+        margin-right: 15px;
+        height: 18px;
+    }
+    .section-top-title{
+        font-size: 56px;
+        line-height: 46.6px;
+        height: 120px;
+        margin-top: 10px;
+    }
+    .section-top-film{
+        width: 90%;
+    }
+    .section-top-film-right{
+        width: 40%;
+    }
+    .section-top-film-left{
+        width: 56%;
+    }
+    .section-top-text{
+        width: 70%;
+        font-size: 14px;
+        line-height: 18px;
+        height: 36px;
+    }
+    .section-top-film-right img{
+        height: 220px;
+     }
+     .blue-box{
+        width: 280px;
+        height: 115px;
+        padding: 10px;
+        margin: 30px auto;
+     }
+     .blue-box .content{
+        font-size: 14px;
+        font-weight: 400;
+        width: 250px;
+    }
+    .blue-box .author{
+        font-size: 14px;
+        line-height: 15.6px;
+    }
+    .section-top-course{
+        margin-top: 0;
+    }
+    .section-top-course .title{
+        font-size: 32px;
+        line-height: 32px;
+    }
+    .section-top-course-left{
+        width: 50%;
+    }
+    .section-top-course-left .text{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .section-top-course-right img{
+        width: 200px;
+        height: 200px;
+        margin-top: 26px;
+       
+    }
+    .section-top-course-common{
+        height: 260px;
+    }
+    .section-top-course-details{
+        width: 80%;
+        height: 180px;
+    }
+    .section-top-course-details img{
+        width: 154px;
+        height: 137px;
+    }
+    .section-top-course-details div{
+        width: 110px;
+    }
+    .section-top-course-details div .title{
+        font-size: 16px;
+        line-height: 19.5px;
+        height: 23px;
+    }
+    .section-top-course-details div .content{
+        padding: 0 5px;
+        font-size: 12px;
+        line-height: 14.2px;
+        margin-top: 10px;
+    }
+    .class-details h1{
+        height: 150px;
+        font-size: 32px;
+        line-height: 32px;
+        height: 130px;
+    }
+    .class-format{
+        width: 75%;
+        height: 160px;
+    }
+    .class-format div{
+        width: 180px;
+    }
+    .class-format .title{
+        line-height: 19.5px;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .class-format .content{
+        font-size: 12px;
+    }
+} 
