@@ -104,6 +104,7 @@
         width: 70%;
         height: 150px;
         max-width: 269px;
+        min-width: 180px;
         flex-wrap: wrap;
     }
     .section-top-course-details img{
