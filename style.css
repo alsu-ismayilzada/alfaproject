@@ -187,173 +187,246 @@
   
    /* css code of section-middle -------------------------------------------------------------------*/ 
 
- @media screen and (min-width: 1280px) and (max-width: 1440px) 
+ @media screen and (min-width: 1280px) and (max-width: 1440px) {
+
+ }
+
+
+  
+  
+ @media screen and (min-width: 1281px) and (max-width: 1440px) 
+
 {
         
     .section-ahmad{
-        width: calc(100vw - 169px);
-        /* height: 100vh; */
+        width: 88.26vw;
         margin: 0 auto;
     }
     .article {
-        margin-left: 37px;
+        margin-left: 2.56vw;
     }
     .what-we-know {
         font-family: "Roboto Slab", serif;
-        font-size: 55px;
+        font-size: 3.81vw;
         font-weight: 700;
     }
     ul {
-        width: calc(100% - 572px);
-        height: 374px;
-        margin-left: 20px;
-        margin-top: 55px;
-        margin-bottom: 248px;
+        width: 48.54vw;
+        height: 25.97vw;
+        margin-left: 1.38vw;
+        margin-top: 3.81vw;
+        margin-bottom: 17.22vw;
     }
     li {
         font-family: "Roboto", sans-serif;
-        font-size: 24px;
+        font-size: 1.66vw;
         font-weight: 400;
-        line-height: 36px; 
+        line-height: 2.5vw; 
     }
     .course-program {
         font-family: "Roboto Slab", serif;
-        font-size: 55px;
+        font-size: 3.81vw;
         font-weight: 700;
-        margin-bottom: 95px;
+        margin-bottom: 6.59vw;
     }
     .parent {
         width: 100%;
-        height: 1107px;
+        height: 74.3vw;
         display: flex;
         flex-wrap: wrap;
     }
     .child {
-        margin: 0px 0px 41px;
-        width: calc((100vw - 243px) / 3);
-        height: calc((100% - 123px) / 3);
+        margin: 0px 0px 2.84vw;
+        width: 27.70vw;
+        height: 22.77vw;
         background-color: white;
         box-shadow: 1px 1px 15px 0px rgba(0,0,0,0.25);
-        border-radius: 30px;
+        border-radius: 2.08vw;
     }
     .margin {
-        margin: 0px 37px 41px;
+        margin: 0px 2.56vw 2.84vw;
     }
     .child-img{
         width: 100%;
-        /* height: 160px; */
+        height: 11.875vw;
     }
     img {
         width: 100%;
-        height: 100%;
     }
     .child-header {
         font-family: "Roboto", sans-serif;
-        font-size: 30px;
+        font-size: 2.08vw;
         font-weight: 700;
-        width: calc(100% - 34px);
-        height: 39px;
-        margin: 7px 14px 0px 20px;
+        width: 25.34vw;
+        height: 4.93vw;
+        margin: 0px 0.97vw 0px 1.38vw;
     }
     .child-article {
         font-family: "Roboto", sans-serif;
-        font-size: 25px;
+        font-size: 1.73vw;
         font-weight: 400;
-        width: calc(100% - 34px);
-        height: 63px;
-        margin: 32px 14px 0px 20px;
+        width: 25.34vw;
+        height: 5.97vw; 
+        margin: 0px 0.97vw 0px 1.38vw;
     }
-    .dif-height {
-        height: 71px;
-        margin: 12px 14px 3px 20px;
-    }
-    .dif-mar {
-        margin: 0px 14px 0px 20px;
-    } 
+   
   
   
 }
+
+
 @media screen and (min-width: 834px) and (max-width: 1280px) 
 {
+        
     .section-ahmad{
-        width: calc(100vw - 97.88px);
-        /* height: 100vh; */
+        width: 88.26vw;
         margin: 0 auto;
     }
     .article {
-        margin-left: 21px;
+        margin-left: 2.56vw;
     }
     .what-we-know {
         font-family: "Roboto Slab", serif;
-        font-size: 32px;
+        font-size: 3.81vw;
         font-weight: 700;
     }
     ul {
-        width: calc(100% - 331.99px);
-        height: 216.61px;
-        margin-left: 9px;
-        margin-top: 12px;
-        margin-bottom: 143px;
+        width: 48.54vw;
+        height: 25.97vw;
+        margin-left: 1.38vw;
+        margin-top: 3.81vw;
+        margin-bottom: 17.22vw;
     }
     li {
         font-family: "Roboto", sans-serif;
-        font-size: 14px;
+        font-size: 1.66vw;
         font-weight: 400;
-        line-height: 21px; 
+        line-height: 2.5vw; 
     }
     .course-program {
         font-family: "Roboto Slab", serif;
-        font-size: 32px;
+        font-size: 3.81vw;
         font-weight: 700;
-        margin-bottom: 55px;
+        margin-bottom: 6.59vw;
     }
     .parent {
         width: 100%;
-        height: 522px;
+        height: 74.3vw;
         display: flex;
         flex-wrap: wrap;
     }
     .child {
-        margin: 0px 0px 23.74px;
-        width: calc((100vw - 140.74px) / 3);
-        height: calc((100% - 71.22px) / 3);
+        margin: 0px 0px 2.84vw;
+        width: 27.70vw;
+        height: 22.77vw;
         background-color: white;
         box-shadow: 1px 1px 15px 0px rgba(0,0,0,0.25);
-        border-radius: 30px;
+        border-radius: 2.08vw;
     }
     .margin {
-        margin: 0px 21.43px 23.74px;
+        margin: 0px 2.56vw 2.84vw;
     }
     .child-img{
         width: 100%;
-        /* height: 160px; */
+        height: 11.875vw;
     }
     img {
         width: 100%;
-        height: 100%;
     }
     .child-header {
         font-family: "Roboto", sans-serif;
-        font-size: 17px;
+        font-size: 2.08vw;
         font-weight: 700;
-        width: calc(100% - 34px);
-        height: 39px;
-        margin: 7px 14px 0px 20px;
+        width: 25.34vw;
+        height: 4.93vw;
+        margin: 0px 0.97vw 0px 1.38vw;
     }
     .child-article {
         font-family: "Roboto", sans-serif;
-        font-size: 14px;
+        font-size: 1.73vw;
         font-weight: 400;
-        width: calc(100% - 34px);
-        height: 63px;
-        margin: 32px 14px 0px 20px;
+        width: 25.34vw;
+        height: 5.97vw; 
+        margin: 0px 0.97vw 0px 1.38vw;
     }
-    .dif-height {
-        height: 71px;
-        margin: 12px 14px 3px 20px;
-    }
-    .dif-mar {
-        margin: 0px 14px 0px 20px;
-    }
+   
+  
+  
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 834px) 
+{
         
+    .section-ahmad{
+        width: 82.88vw;
+        margin: 0 auto;
+    }
+    .article {
+        margin-left: 1.03vw;
+    }
+    .what-we-know {
+        font-family: "Roboto Slab", serif;
+        height: 14.13vw;
+        font-size: 6.93vw;
+        font-weight: 700;
+    }
+    ul {
+        width: 79.73vw;
+        height: 46.4vw;
+        margin-left: 2.13vw;
+        margin-bottom: 22.66vw;
+    }
+    li {
+        font-family: "Roboto", sans-serif;
+        font-size: 3.2vw;
+        font-weight: 400;
+        line-height: 4.8vw; 
+    }
+    .course-program {
+        font-family: "Roboto Slab", serif;
+        font-size: 6.93vw;
+        font-weight: 700;
+        height: 21.06vw;
+        margin-left: -0.53vw;
+    }
+    .parent {
+        width: 49.57vw;
+        height: 371vw;
+        display: flex;
+        flex-direction: column;
+        margin-left: 16.77vw;
+    }
+    .child {
+        margin: 0px 0px 6.44vw;
+        width: 49.57vw;
+        height: 40.75vw;
+        background-color: white;
+        box-shadow: 1px 1px 15px 0px rgba(0,0,0,0.25);
+        border-radius: 4vw;
+    }
+    .child-img{
+        width: 100%;
+    }
+    img {
+        width: 100%;
+        height: 19.88vw;
+    }
+    .child-header {
+        font-family: "Roboto", sans-serif;
+        font-size: 3.73vw;
+        font-weight: 700;
+        width: 45.35vw;
+        height: 8.82vw;
+        margin: 0px 1.86vw 0px 2.36vw;
+    }
+    .child-article {
+        font-family: "Roboto", sans-serif;
+        font-size: 3.2vw;
+        font-weight: 400;
+        width: 45.35vw;
+        height: 7.82vw; 
+        margin: 0px 1.86vw 0px 2.36vw;
+    }
+
 }
