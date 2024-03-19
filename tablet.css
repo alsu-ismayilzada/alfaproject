@@ -111,18 +111,23 @@
         height: 130px;
     }
     .class-format{
-        width: 75%;
+        width: 95%;
         height: 160px;
     }
     .class-format div{
-        width: 180px;
+        width: 36.8vw;
     }
     .class-format .title{
         line-height: 19.5px;
-        font-size: 16px;
+        font-size: 1.7vw;
         font-weight: 700;
     }
     .class-format .content{
-        font-size: 12px;
+        font-size: 1.3vw;
+        line-height:  2.5vw;
     }
+
+    /* section-middle css */
+
+    
 } 
