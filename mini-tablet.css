@@ -1,5 +1,8 @@
-@media screen and (min-width: 550px) and (max-width: 991px) {
-
+ @media screen and (min-width: 550px) and (max-width: 991px) { 
+    .section-top{
+       width:  82.88vw;
+       padding: 0;
+    }
 
     .section-top-logo{
         width: 67px;
@@ -16,15 +19,16 @@
         font-size: 13px;
         line-height: 13.5px;
     }
-    .section-top-title{
-        font-size: 48px;
-        line-height: 37.6px;
-        height: 100px;
+     .section-top-title{
+        font-size: 9.86vw;
+        line-height: 10vw;
+        /* height: 100px; */
     }
+     
     
     .section-top-text{
-        font-size: 14px;
-        line-height: 17px;
+        font-size: 2.66vw;
+        line-height: 4vw;
 
     }
     .section-top-film{
@@ -32,11 +36,11 @@
         display: block;
     }
     .section-top-film-left{
-        width: 80%;
+        width: 100%;
         min-width: 258px;
         min-width: 345px;
     }
-    .section-top-film-right{
+     .section-top-film-right{
         width: 100%;
         display: flex;
         justify-content: end;
@@ -46,40 +50,47 @@
         height: 195px;
         
      }
+     
      .blue-box{
-        width: 240px;
-        height: 105px;
+        width: 60vw;
+        height: 28vw;
         padding: 10px;
         margin: 30px auto;
      }
      .blue-box .content{
-        font-size: 12px;
-        font-weight: 400;
-        width: 210px;
+       font-size: 2.93vw;
+        line-height: 3.81vw;
+        width: 56vw;
     }
+    
     .blue-box .author{
-        font-size: 11px;
-        line-height: 15.6px;
-    }
+         font-size: 2.66vw;
+        line-height: 4.16vw;
+    } 
     .section-top-course{
         padding: 0;;
         margin-top: 40px;
-        height: 500px;
+        margin-bottom: 20px;
+        /* height: 500px; */
+        height: 137vw;
+        max-height: 930px;
+        /* min-height: 935px;  */
+        /* min-height: ; */
     }
     .section-top-course-common{
         flex-direction: column;
-        height: 400px;
+        height: 650px;
     }
-    .section-top-course .title{
+    /* .section-top-course .title{
         font-size: 30px;
         line-height: 26px;
-    }
+    } */
     .section-top-course-left{
         width: 100%;
     }
     .section-top-course-left .text{
-        font-size: 14px;
-        line-height: 20px;
+        font-size: 3.2vw;
+        line-height: 4.8vw;
     }
     .section-top-course-right{
       display: flex;
@@ -87,57 +98,59 @@
     }
     .section-top-course-right img{
         width: 190px;
-        height: 180px;   
+        height: 180px;  
+        /* margin-top: 5vw;  */
+        margin-bottom: 5vw;
     }
     .section-top-course-details{
         /* margin-top: 30px; */
-        width: 70%;
-        height: 150px;
-        max-width: 290px;
+        width: 53vw;
+        height: 220px;
+        max-width: 520px;
         flex-wrap: wrap;
     }
     .section-top-course-details img{
         display: none;
     }
     .section-top-course-details div{
-        width: 100px;
+        width: 25vw;
     }
     .section-top-course-details div .title{
-        padding: 0;
-        font-size: 14px;
-        line-height: 17.5px;
-        height: 18px;
+        padding: 5px 0;
+        font-size: 3.2vw;
+        line-height: 4.16vw;
+        height: 18px; 
     }
     .section-top-course-details div .content{
-        padding: 0 ;
-        margin-top: 0;
-        font-size: 12px;
-        line-height: 15.2px;
-        height: 18px;
+        padding: 3px 0;
+        /* margin-top: 0;  */
+        font-size: 2.66vw;
+        line-height: 3.46vw;
+        /* height: 18px;  */
     }
     .class-details h1{
         margin: 15px 0;
         padding-top: 20px;
-        font-size: 28px;
-        line-height: 26px;
-        height: 43px;
+        font-size: 6.93vw;
+        line-height: 7.02vw;
+        height: 80px;
     }
     .class-format{
         flex-direction: column;
-        width: 75%;
-        height: 280px;
-        margin-bottom: 40px;
+        width: 85%;
+        height: 61vw;
+        margin-bottom: 60px;
     }
     .class-format div{
-        width: 210px;
+        width: 42.4vw;
         margin-top: 30px;
     }
     .class-format .title{
-        line-height: 15.5px;
-        font-size: 14px;
+        font-size: 3.2vw;
+        line-height: 4.16vw;
     }
     .class-format .content{
-        font-size: 12px;
-        line-height: 13px;
+        font-size: 2.66vw;
+        line-height: 3.46vw;
     }
-}
+} 
