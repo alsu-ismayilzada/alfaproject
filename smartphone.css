@@ -12,14 +12,14 @@
         margin-top: 35px;
     }
     .section-top-menu{
-        height: 76px;
+        height: 66px;
     }
     .section-top-menu img{
         width: 10px;
         height: 10px;
     }
     .section-top-menu p{
-        font-size: 10px;
+        font-size: 2.66vw;
         line-height: 11.5px;
         margin-left: 5px;
         margin-right: 15px;
@@ -27,15 +27,17 @@
     }
     .section-top-title{
         
-        font-size: 36px;
-        line-height: 37.6px;
-        height: 88px;
+        font-size: 9.86vw;
+        line-height: 10vw;
+        padding-top: 10px;
+        box-sizing: border-box;
+        height: 25vw;
         margin-top: 10px;
     }
     .section-top-text{
-        width: 85%;
-        font-size: 12px;
-        line-height: 15px;
+        width: 95%;
+        font-size: 2.66vw;
+        line-height: 4vw;
         height: 62px;
     }
     .section-top-film{
@@ -43,8 +45,8 @@
         flex-direction: column;
     }
     .section-top-film-left{
-        width: 75%;
-        min-width: 258px;
+        width: 100%;
+        /* min-width: 258px; */
     }
     .section-top-film-right{
         width: 100%;
@@ -57,39 +59,41 @@
         
      }
      .blue-box{
-        width: 225px;
-        height: 95px;
+        width: 60vw;
+        height: 24.85vw;
         padding: 10px;
         margin: 30px auto;
      }
      .blue-box .content{
-        font-size: 11px;
+        font-size: 2.93vw;
+        line-height: 3.81vw;
         font-weight: 400;
-        width: 200px;
+        width: 53.33vw;
     }
     .blue-box .author{
-        font-size: 10px;
-        line-height: 15.6px;
+        font-size: 2.66vw;
+        line-height: 4.16vw;
     }
     .section-top-course{
         padding: 0;;
         margin-top: 40px;
-        height: 500px;
+        height: 137vw;
+        max-height: 665px;
     }
     .section-top-course-common{
         flex-direction: column;
         height: 400px;
     }
     .section-top-course .title{
-        font-size: 26px;
-        line-height: 26px;
+        font-size: 6.93vw;
+        line-height: 6.93vw;
     }
     .section-top-course-left{
         width: 100%;
     }
     .section-top-course-left .text{
-        font-size: 12px;
-        line-height: 18px;
+        font-size: 3.2vw;
+        line-height: 4.8vw;
     }
     .section-top-course-right{
       display: flex;
@@ -103,51 +107,51 @@
         /* margin-top: 30px; */
         width: 70%;
         height: 150px;
-        max-width: 269px;
-        min-width: 180px;
+        /* max-width: 269px; */
+        min-width: 240px;
         flex-wrap: wrap;
     }
     .section-top-course-details img{
         display: none;
     }
     .section-top-course-details div{
-        width: 90px;
+        width: 120px;
     }
     .section-top-course-details div .title{
-        padding: 0;
-        font-size: 12px;
-        line-height: 15.5px;
-        height: 18px;
+        padding: 3px 0;
+        font-size: 3.2vw;
+        line-height: 4.16vw;
+        /* height: 18px; */
     }
     .section-top-course-details div .content{
         padding: 0 ;
         margin-top: 0;
-        font-size: 10px;
-        line-height: 13.2px;
-        height: 18px;
+        font-size: 2.66vw;
+        line-height: 3.46vw;
+        /* height: 18px; */
     }
     .class-details h1{
         padding-top: 20px;
-        font-size: 26px;
-        line-height: 26px;
+        font-size: 6.93vw;
+        line-height: 7.02vw;
         height: 43px;
     }
     .class-format{
         flex-direction: column;
         width: 75%;
-        height: 260px;
+        height: 71vw;
         margin-bottom: 40px;
     }
     .class-format div{
-        width: 180px;
+        width: 48vw;
         margin-top: 30px;
     }
     .class-format .title{
-        line-height: 15.5px;
-        font-size: 12px;
+        font-size: 3.2vw;
+        line-height: 4.16vw;
     }
     .class-format .content{
-        font-size: 10px;
-        line-height: 13px;
+        font-size: 2.66vw;
+        line-height: 3.46vw;
     }
 }
